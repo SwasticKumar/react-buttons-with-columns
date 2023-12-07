@@ -8,7 +8,7 @@ const NavBar = () => {
         style={{ marginBottom: "3rem" }}
       >
         <div className="container px-2 px-lg-2">
-          <a className="navbar-brand" href="#!">
+          <Link to="/"  className="navbar-brand" >
            
             <img
               src="/image/logo.png"
@@ -16,7 +16,7 @@ const NavBar = () => {
               style={{ width: "150px" }}
             />
           
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
